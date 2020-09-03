@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MavenTest">
+    <test name="MavenTestExecution" >
+        <classes>
+            <class name="DemoTest" />
+            <class name="DemoTestTwo" />
+        </classes>
+    </test> <!-- PracticeNew(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
+
