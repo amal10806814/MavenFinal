@@ -4,8 +4,9 @@
 <suite name="MavenTest">
     <test name="MavenTestExecution" >
         <classes>
-            <class name="DemoTest" />
-            <class name="DemoTestTwo" />
+        <!--     <class name="DemoTest" />
+            <class name="DemoTestTwo" /> -->
+              <class name="takeScreenShot" />
         </classes>
     </test> <!-- PracticeNew(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

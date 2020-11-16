@@ -24,6 +24,7 @@ public class SelectClass {
 
         Select selDay = new Select(driver.findElement(By.id("day")));
          selDay.selectByVisibleText("3");
+         
 
          Select selMonth = new Select(driver.findElement(By.id("month")));
          selMonth.selectByValue("3");

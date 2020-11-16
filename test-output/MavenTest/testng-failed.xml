@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MavenTest]">
+  <test name="MavenTestExecution">
+    <classes>
+      <class name="takeScreenShot"/>
+    </classes>
+  </test> <!-- MavenTestExecution -->
+  <test name="MavenTestExecution(failed)">
+    <classes>
+      <class name="takeScreenShot">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- takeScreenShot -->
+    </classes>
+  </test> <!-- MavenTestExecution(failed) -->
+</suite> <!-- Failed suite [MavenTest] -->

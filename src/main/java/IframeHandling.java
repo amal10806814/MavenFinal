@@ -25,7 +25,7 @@ public class IframeHandling {
         List<WebElement> ll = driver.findElements(By.tagName("iframe"));
         System.out.println(ll.size());
 
-        //we can also swtich to frame using iframe index, name attribute,id attribute ,webelement as well
+        //we can also switch to frame using iframe index, name attribute,id attribute ,webelement as well
         // driver.swtichTo.frame(1); -- command using frame index value to switch to a particular index
         driver.switchTo().frame("frame1");
 

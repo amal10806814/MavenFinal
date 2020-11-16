@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6196" started-at="2020-10-03T17:33:00Z" finished-at="2020-10-03T17:33:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6196" started-at="2020-10-03T17:33:00Z" finished-at="2020-10-03T17:33:06Z">
+      <class name="takeScreenShot">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:takeScreenShot@b684286]" name="openBrowser" duration-ms="6176" started-at="2020-10-03T23:03:00Z" finished-at="2020-10-03T23:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- takeScreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
